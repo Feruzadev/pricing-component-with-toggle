@@ -1,0 +1,95 @@
+@import url(./fonts.css);
+
+:root {
+    --brown: #6E728E;
+    --white: #fff;
+    --lightblue: #A2A7F0;
+    --darkblue: #696EDD;
+    --black: #4A4D60;
+    --lightblack:#6E728E;
+    --blue: #6D72DE;
+    --fm-montserrat: "Montserrat"
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    font-family: "Montserrat";
+}
+
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.pricencontent {
+    width: 100%;
+    height: 100vh;
+    background-color: #F7F7FE;;
+
+    
+}
+.container-d-flex {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+.pricentitle {
+    /* display: flex;
+    width: 239px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 239px;
+
+}
+.pricentitle-title {
+    
+
+}
+.pricentotol-section {
+}
+.section {
+}
+.pricensign {
+}
+.pricencontent-section__cards {
+}
+.section-card {
+}
+.card-title {
+}
+.card-text {
+}
+.cards-list {
+}
+.list {
+}
+.card-line {
+}
+.list-text1 {
+}
+.list-text2 {
+}
+.list-text3 {
+}
+.card-btn {
+}
+
+
+
+
+
