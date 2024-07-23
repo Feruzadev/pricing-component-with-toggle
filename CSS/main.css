@@ -30,12 +30,17 @@ ul {
     list-style: none;
 }
 
+body {
+    background-color: #F7F7FE;
+}
 .pricencontent {
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: #F7F7FE;
     display: flex;
     justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 
 
 
@@ -47,8 +52,8 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: #F7F7FE;
-    width: 1050px;
-    height: 675px;
+    /* width: 1050px;
+    height: 675px; */
 
 }
 
@@ -95,14 +100,24 @@ ul {
     height: 22px;
     background-color: var(--darkblue);
     border-radius: 40px;
+    position: relative;
 
+}
+.pricensign:hover {
+    cursor: pointer;
 }
 
 .pricensign-sign {
-    width: 22px;
-    height: 22px;
+    width: 18px;
+    height: 18px;
     background-color:#fff;
     border-radius: 50%;
+    position: absolute;
+    right: 4px;
+    top: 1px;
+    bottom: 1px;
+
+
 }
 
 .pricencontent-section__cards {

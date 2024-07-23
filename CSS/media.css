@@ -1,0 +1,6 @@
+
+@media  only screen and (max-width: 1040px) {
+    .pricencontent-section__cards {
+        flex-direction: column;
+    }
+ }
